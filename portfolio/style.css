@@ -1,0 +1,419 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background: rgb(63, 94, 251);
+    background: linear-gradient(to right,#FCB69F,#FFECD2);
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+header {
+    height: 760px;
+}
+
+header::before {
+    background: url('https://firebasestorage.googleapis.com/v0/b/portfolio-sz26.appspot.com/o/bhome.jpg?alt=media&token=14ccd38d-ecef-4d55-8ae4-f59ce6117f17') repeat center center/cover;
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: -1;
+    opacity: 1;
+    width: 100%;
+    height: 745px;
+
+}
+
+.icon a {
+    color: black;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: left;
+}
+
+ul li {
+    list-style: none;
+    margin: 20px;
+}
+
+li a {
+    font-size: 26px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+li a:hover {
+    border: 2px solid rgb(0, 0, 0);
+    padding: 5px;
+    background-color: white;
+}
+
+.h-info {
+    margin: 230px 49px;
+    font-size: 35px;
+    font-family: "Lugrasimo", cursive;
+    color: rgb(0, 0, 0);
+
+}
+
+.h-info span {
+    color: #f80000;
+    text-shadow: 0px 0px 10px black;
+
+}
+
+#About_Me,
+#Skills,
+#Certificate,
+#Contact,#Project {
+    margin: 100px 81px;
+}
+
+
+.about {
+
+    background-color: #ffffff4f;
+    border: 3px solid black;
+    padding: 12px;
+}
+
+.about_me {
+    display: flex;
+
+}
+
+.h-primary {
+    font-size: 26px;
+    margin: 10px;
+}
+
+.a-info {
+    padding: 10px;
+    font-size: 20px;
+
+}
+
+.a-info p {
+    padding: 30px 50px;
+    text-align: justify;
+}
+
+.about img {
+    border: 3px solid white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px black;
+    width: 240px;
+}
+
+.skills,
+.certificate,
+.contact,.project {
+    background-color: #ffffff4f;
+    border: 3px solid black;
+    padding: 12px;
+    border-radius: 20px;
+}
+
+
+
+
+.a-info button {
+    padding: 25px;
+    background-color: white;
+    margin: 20px 50px;
+    border-radius: 10px;
+    border: 3px solid black;
+    transition: all 1s ease-in-out;
+    font-size: 20px;
+   
+
+}
+
+.a-info button:hover {
+    transform: scale(1.2);
+    color: rgb(39, 31, 38);
+
+}
+
+.a-info a {
+    color: rgb(186, 172, 172);
+    text-decoration: none;
+    color: black;
+}
+
+a i{
+    margin: 0px 119px;
+    font-size: 34px;
+    color: black;
+}
+
+
+
+
+
+.s-top,
+.s-down {
+    display: flex;
+    justify-content: space-around;
+}
+
+.s-top img,
+.s-down img {
+    width: 130px;
+    height: 130px;
+    margin: 20px ;
+
+}
+
+.c-img {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.c-img img {
+    width: 300px;
+    border: 2px solid black;
+    box-shadow: 0px 0px 10px black;
+    margin: 15px 0px;
+}
+
+.p-img{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.p-img button{
+    padding: 8px;
+    background-color: white;
+    /* margin: 20px 50px; */
+    border-radius: 10px;
+    border: 2px solid black;
+    /* border-radius: 10px; */
+    transition: all 1s ease-in-out;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.p-img div{
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.c-me {
+    margin: 20px;
+
+
+}
+
+.c-me i {
+    color: black;
+    margin: 10px;
+    font-size: 20px;
+
+}
+
+.c-me a {
+    color: black;
+    font-size: 18px;
+}
+
+.icon i {
+    margin: 28px 22px;
+    font-size: 38px;
+    transition: all 1s ease-in-out;
+}
+
+.icon i:hover {
+    border: 2px solid orange;
+    background-color: black;
+    color: orange;
+    border-radius: 50%;
+    padding: 10PX;
+}
+
+.c-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feedback {
+    display: flex;
+    flex-direction: column;
+}
+
+.feedback input,
+.feedback textarea {
+    width: 500px;
+    height: 25px;
+    border: 2px solid aqua;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    background-color: #4f4646;
+    color: white;
+}
+
+.feedback textarea {
+    height: 50px;
+}
+
+.feedback button {
+    cursor: pointer;
+    width: 200px;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    background-color: black;
+    border: 2px solid aqua;
+    border-radius: 10px;
+    margin: auto auto;
+    transition: all 1s ease-in-out;
+}
+
+.feedback button:hover {
+    transform: scale(1.2);
+    color: rgb(255, 3, 230);
+}
+
+.feedback form {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+   height: 30px;
+}
+
+
+@media (max-width:1445px) {
+
+    .c-img img {
+        width: 300px;
+    }
+
+}
+
+@media (max-width:1115px) {
+    .c-img {
+        flex-direction: column;
+        justify-content: center;
+        width: 400px;
+    }
+
+
+    .c-info {
+        flex-direction: column;
+    }
+}
+
+@media (max-width:960px) {
+    /* .about{
+        height: 1112px;
+    } */
+
+    .s-top,
+    .s-down {
+        flex-direction: column;
+    }
+
+    .s-top img,
+    .s-down img {
+        margin: 10px auto;
+    }
+}
+
+@media (max-width:755px) {
+
+    ul li a {
+        font-size: 20px;
+    }
+
+    .about_me {
+        flex-direction: column-reverse;
+    }
+
+    .p-img{
+        flex-direction: column;
+        
+    }
+
+    .p-img div{
+        margin: 10px ;
+    }
+
+    .feedback input,
+    .feedback textarea {
+        width: 250px;
+    }
+
+}
+
+@media (max-width:500px) {
+    header::before {
+        background: url('https://firebasestorage.googleapis.com/v0/b/portfolio-sz26.appspot.com/o/sagar.JPG?alt=media&token=a8164ccd-fe63-42a6-8a51-a7c29e3a2c87') repeat center center/cover;
+        content: "";
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        z-index: -1;
+        opacity: 1;
+        width: 100%;
+        height: 833px;
+
+    }
+
+    /* .about{
+        height: 1112px;
+    } */
+
+    ul {
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    ul li {
+        margin: 5px;
+    }
+    .about p{
+        text-align: left;
+    }
+
+    img {
+        width: 200px;
+    }
+
+    #About_Me,
+    #Skills,
+    #Certificate,
+    #Contact {
+        margin: 100px 50px;
+    }
+
+    .c-img img {
+        width: 250px;
+    }
+
+
+    .feedback input,
+    .feedback textarea {
+        width: 200px;
+    }
+}
